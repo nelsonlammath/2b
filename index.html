@@ -370,7 +370,7 @@
                 const randomIndex = Math.floor(Math.random() * nameList.length);
                 const chosen = nameList[randomIndex];
                 displayNameEl.textContent = chosen.name;
-                displayNumberEl.textContent = `編號 ${chosen.number}`;
+                displayNumberEl.textContent = `No. ${chosen.number}`;
 
                 // 輕微背景閃爍，讓使用者知道已經觸發 (iPad視覺回饋)
                 const area = document.getElementById('pickedArea');
